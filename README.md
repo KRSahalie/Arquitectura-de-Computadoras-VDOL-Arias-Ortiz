@@ -35,3 +35,5 @@ ld color.o -o color
 ./color
 ```
 
+✅ Leer config.ini — OK
+
