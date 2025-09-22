@@ -12,6 +12,7 @@ inventario_depura
 inventario_visual
 inventario_visual_config
 main_test
+main          # ejecutable principal
 
 # ==== Archivos de prueba / viejos ====
 color.asm
@@ -19,14 +20,10 @@ inventario_depura.asm
 inventario_sort.asm
 main_test.asm
 
-# ==== Si no deseas rastrear datos de ejemplo ====
-# Quita el comentario si NO quieres que inventario.txt y config.ini se suban
-#inventario.txt
-#config.ini
-
 # ==== Archivos temporales de editores ====
 *~
 *.swp
 *.tmp
 .DS_Store
+.vscode/
 

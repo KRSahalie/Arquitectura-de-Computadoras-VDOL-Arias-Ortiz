@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto 1: Visualizador de Datos con Ordenamiento para Linux
 ## Gráfico de Barras en Ensamblador x86 (NASM)
 
@@ -60,4 +61,5 @@ Compilar:
 cd src
 nasm -f elf64 -g -F dwarf inventario_visual.asm -o inventario_visual.o
 ld inventario_visual.o -o inventario_visual
+=======
 
