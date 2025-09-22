@@ -1,0 +1,32 @@
+# ==== Archivos de compilación ====
+*.o          # Objetos NASM
+*.out        # Otros objetos/ejecutables intermedios
+*.core       # Core dumps
+
+# ==== Ejecutables ====
+program
+hola
+color
+inventario_sort
+inventario_depura
+inventario_visual
+inventario_visual_config
+main_test
+
+# ==== Archivos de prueba / viejos ====
+color.asm
+inventario_depura.asm
+inventario_sort.asm
+main_test.asm
+
+# ==== Si no deseas rastrear datos de ejemplo ====
+# Quita el comentario si NO quieres que inventario.txt y config.ini se suban
+#inventario.txt
+#config.ini
+
+# ==== Archivos temporales de editores ====
+*~
+*.swp
+*.tmp
+.DS_Store
+
