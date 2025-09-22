@@ -1,26 +1,13 @@
-# ==== Archivos de compilación ====
-*.o          # Objetos NASM
-*.out        # Otros objetos/ejecutables intermedios
-*.core       # Core dumps
+# ==== Ignorar TODO en src salvo los importantes ====
+src/*
+!src/inventario_visual.asm
+!src/inventario.txt
+!src/config.ini
 
-# ==== Ejecutables ====
-program
-hola
-color
-inventario_sort
-inventario_depura
-inventario_visual
-inventario_visual_config
-main_test
-main          # ejecutable principal
-
-# ==== Archivos de prueba / viejos ====
-color.asm
-inventario_depura.asm
-inventario_sort.asm
-main_test.asm
-
-# ==== Archivos temporales de editores ====
+# ==== Archivos temporales de compilación y editores ====
+*.o
+*.out
+*.core
 *~
 *.swp
 *.tmp
